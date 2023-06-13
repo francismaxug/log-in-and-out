@@ -1,0 +1,11 @@
+.head{
+  background: rgb(85, 20, 104);
+  color: white;
+  padding: 15px;
+  box-shadow: 0 0px 5px 3px black;
+}
+span{
+  font-size: 20px;
+  color: rgb(183, 181, 181);
+  margin-left: 20px;
+}

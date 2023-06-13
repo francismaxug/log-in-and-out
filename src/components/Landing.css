@@ -1,0 +1,76 @@
+.form{
+  margin: 0 auto;
+  width: 35%;
+  height: 190px;
+  box-shadow: 0px 1px 5px 0 rgb(156, 156, 156);
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.form form input{
+line-height: 20px;
+padding: 5px;
+width: 70%;
+margin-bottom: 25px;
+border-radius: 5px;
+border: 1px solid rgb(76, 76, 76);
+outline: none;
+
+}
+.form form input:focus{
+  background: rgb(221, 190, 240);
+  border: 2px solid  rgb(85, 20, 104);
+}
+.form form{
+  padding: 27px;
+}
+.form form label{
+  margin-right: 40px;
+}
+.move{
+  margin-left: 30px;
+}
+.form div{
+  margin: 0 auto;
+  width: 10%;
+  margin-top:-10px ;
+}
+.form button{
+  padding: 7px;
+  width: 130px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(198, 198, 198);
+  cursor: not-allowed;
+}
+.form.valid button{
+  background: rgb(92, 47, 110);
+cursor: pointer;
+color: white;
+}
+
+.side{
+  position: absolute;
+  top: 2%;
+  right: 0;
+  margin-right: 50px;
+}
+.side button{
+border: none;
+background: none;
+color: white;
+margin-left: 25px;
+}
+.side .call{
+  background: rgb(182, 28, 146);
+  font-size: 15px;
+  padding: 0px;
+  border-radius: 50px;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+}
+.form h1{
+  text-align: center;
+  padding-top: 70px;
+}
